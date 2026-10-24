@@ -1,0 +1,9 @@
+.app { font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto; padding: 20px; }
+.task-form { display: flex; gap: 8px; margin-bottom: 16px; }
+.task-form input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 6px; }
+.task-form button { padding: 8px 14px; border: none; border-radius: 6px;
+                     background: #14509a; color: #fff; cursor: pointer; }
+.task-list { list-style: none; padding: 0; }
+.task-list li { display: flex; justify-content: space-between; padding: 8px;
+                 border-bottom: 1px solid #eee; cursor: pointer; }
+.task-list li.completed span { text-decoration: line-through; color: #999; }
